@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin</title>
+</head>
+<body>
+    <h1>我是上官文杰管理员oo</h1>
+    <div class="main">
+        <form action="http://127.0.0.1:3100/dopost" enctype="multipart/form-data" method="post">
+            上传照片：<input type="file" name="upload" multiple="multiple">
+            <br>
+            选择相册：
+            <br>
+            album1<input type="radio" name="album" value="album1">
+            album2<input type="radio" name="album" value="album2">
+            album3<input type="radio" name="album" value="album3">
+            <br>
+            <input type="submit" value="提交">
+        </form>
+        <a href="index.html">返回</a>
+    </div>
+
+<style>
+    body{
+        margin:20px;
+    }
+    input{
+        margin:20px 5px;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+</body>
+</html>
